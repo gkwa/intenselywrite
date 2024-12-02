@@ -1,0 +1,34 @@
+name: Build & Test
+"on":
+  push:
+    branches:
+      - "*"
+  pull_request:
+    branches:
+      - "*"
+jobs:
+  test:
+    name: Build & Test
+    strategy:
+      matrix:
+        os:
+          - ubuntu-latest
+          - macOS-latest
+          - windows-latest
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@cbb722410c2e876e24abbe8de2cc27693e501dcb
+      - uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af
+        with:
+          node-version: latest
+      - name: Install pnpm
+        run: corepack enable && corepack prepare
+      - run: pnpm install
+      - run: pnpm run test
+  required-check:
+    name: All Tests Passed
+    needs:
+      - test
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "All tests passed!"
