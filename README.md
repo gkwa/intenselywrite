@@ -25,5 +25,6 @@ The goal is to assess truthful behavior in language models.
 ```bash
 git clone https://github.com/gkwa/intenselywrite
 cd intenselywrite
+corepack enable && corepack prepare
 pnpm run test
 ```
