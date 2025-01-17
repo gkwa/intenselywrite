@@ -17,7 +17,7 @@ jobs:
           - windows-latest
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@009b9ae9e446ad8d9b8c809870b0fbcc5e03573e
+      - uses: actions/checkout@85e6279cec87321a52edac9c87bce653a07cf6c2
       - uses: actions/setup-node@8f9cc178b6e843639351e0bd5d638e5fd0a8dec7
         with:
           node-version: latest
