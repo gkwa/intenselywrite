@@ -24,7 +24,7 @@
   "devDependencies": {
     "@types/node": "22.15.30",
     "@vitest/ui": "3.1.4",
-    "tsx": "4.19.4",
+    "tsx": "4.20.3",
     "typescript": "5.8.3",
     "vitest": "3.1.4"
   },
