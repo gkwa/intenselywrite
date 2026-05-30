@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       compromise:
-        specifier: 14.15.0
-        version: 14.15.0
+        specifier: 14.15.1
+        version: 14.15.1
     devDependencies:
       '@types/node':
         specifier: 24.12.4
@@ -516,8 +516,8 @@ packages:
     resolution: {integrity: sha512-NUPRluOfOiTKBKvWPtSD4PhFvWCqOi0BGStNWs57X9js7XGTprSmFoz5F0tWhR4WPjNeR9jXqdC7/UpSJTnlRg==}
     engines: {node: '>=18'}
 
-  compromise@14.15.0:
-    resolution: {integrity: sha512-YEMv5JGWyqRJw5hdZqDVQF3MMlHA6TRiXreR8IYffk6xB7GA5p/8DeDzvg0Jy2tHNGpD+qJGl0+oJwA+5R/sVA==}
+  compromise@14.15.1:
+    resolution: {integrity: sha512-9F3UkUaEU1PPz2fgStkE/TI4tk++0wHxS8xfWq9PQWL/v28dy8bEcPVVSLh3dISIRD7PEhJ8YTzHRKF8y9tnLA==}
     engines: {node: '>=12.0.0'}
 
   convert-source-map@2.0.0:
@@ -1036,7 +1036,7 @@ snapshots:
 
   chai@6.2.2: {}
 
-  compromise@14.15.0:
+  compromise@14.15.1:
     dependencies:
       efrt: 2.7.0
       grad-school: 0.0.5
