@@ -22,7 +22,7 @@
     "compromise": "14.15.1"
   },
   "devDependencies": {
-    "@types/node": "24.13.2",
+    "@types/node": "24.13.3",
     "@vitest/ui": "4.1.10",
     "tsx": "4.23.0",
     "typescript": "6.0.3",
