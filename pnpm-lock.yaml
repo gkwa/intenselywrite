@@ -167,8 +167,8 @@ importers:
   .:
     dependencies:
       compromise:
-        specifier: 14.18.0
-        version: 14.18.0
+        specifier: 14.19.0
+        version: 14.19.0
     devDependencies:
       '@types/node':
         specifier: 24.19.2
@@ -789,8 +789,8 @@ packages:
     resolution: {integrity: sha512-XWAtwJ6OHO+tj0EKCs0Y2UamnyOxseZWltU4x2U2wh8g4AigdjwvtUjvLP2tqkA/avxHEtzxNaqGq/YGNwckKg==}
     engines: {node: '>=18'}
 
-  compromise@14.18.0:
-    resolution: {integrity: sha512-SCNTeMZN8ZnvDz96igAjV2QuvvmcKA1bVDbFr8IH672Ec9w+fTSxixIPGgrlivaxU+jyk/Ei3AT3gGtP23n6Vg==}
+  compromise@14.19.0:
+    resolution: {integrity: sha512-nA/ClpXt0PaS2Ne389wClhxFBBxV0el3nv6V7XFpoRRQBr8eCnV3Iv4ZY6C5H06UHq1k7bqth73nVc/hv/rrCg==}
     engines: {node: '>=18'}
 
   convert-source-map@2.0.0:
@@ -839,10 +839,6 @@ packages:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
-
-  grad-school@0.0.9:
-    resolution: {integrity: sha512-/aoG9CJz/1gB7x5XKp9i7ggA4k+MqZD7Neph3crfrOLWERkeJFXDXzNefvPW0j97iGTNYqTL+rpBEcz83MTmZw==}
-    engines: {node: '>=12'}
 
   magic-string@1.4.3:
     resolution: {integrity: sha512-z12OxmaPGE0F4xlpGdjuAUckipLpQlTAuAmyGhNoD7ODpYUzvDfvtxUbjM/jwznyP178oju/KDdyi220wNJ0RQ==}
@@ -1350,10 +1346,9 @@ snapshots:
 
   chai@6.3.0: {}
 
-  compromise@14.18.0:
+  compromise@14.19.0:
     dependencies:
       efrt: 2.9.0
-      grad-school: 0.0.9
       suffix-thumb: 6.0.0
 
   convert-source-map@2.0.0: {}
@@ -1435,8 +1430,6 @@ snapshots:
 
   fsevents@2.3.3:
     optional: true
-
-  grad-school@0.0.9: {}
 
   magic-string@1.4.3:
     dependencies:
