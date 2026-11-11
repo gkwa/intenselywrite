@@ -19,7 +19,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "compromise": "14.19.0"
+    "compromise": "14.20.0"
   },
   "devDependencies": {
     "@types/node": "26.6.6",
